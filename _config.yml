@@ -1,0 +1,16 @@
+author: Gerhard Lanz
+description: (he/him)
+markdown: kramdown
+title: Gerhard Lanz
+url: https://gerhardla.nz
+
+plugins:
+  - jekyll-commonmark
+  - jekyll-feed
+  - jekyll-readme-index
+  - jekyll-sitemap
+
+readme_index:
+  enabled: true
+  remove_originals: false
+  with_frontmatter: false
