@@ -5,11 +5,11 @@ permalink: /
 # GERHARD LA<i>(dot)</i>NZ
 ## he/him
 
-→ [Blog](blog.html)<br>
+→ [Blog](blog)<br>
 → [Downloads](downloads)<br>
-→ [Now](now.html)<br>
+→ [Now](now)<br>
 
 [me@gerhardla.nz](mailto:me@gerhardla.nz)
 
-→ [Colophon](colophon.html)<br>
-→ [Privacy](privacy.html)<br>
+→ [Colophon](colophon)<br>
+→ [Privacy](privacy)<br>
