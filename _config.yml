@@ -8,6 +8,7 @@ permalink: /:title/
 plugins:
   - jekyll-commonmark
   - jekyll-feed
+  - jekyll-json-feed
   - jekyll-readme-index
   - jekyll-sitemap
 
