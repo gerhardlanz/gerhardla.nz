@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# BLOG
+# Blog
 <br>
 
 → [RSS](../feed.xml)<br>
