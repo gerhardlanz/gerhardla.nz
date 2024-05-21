@@ -1,1 +1,4 @@
+User-agent: *
 User-agent: GPTBot
+User-agent: AdsBot-Google
+Disallow: /
