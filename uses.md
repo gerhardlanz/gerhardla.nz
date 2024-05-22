@@ -1,0 +1,60 @@
+---
+layout: default
+---
+# Uses
+<br>
+
+## Hiking gear
+
+| Category      | Item                           | Description                                                                                                                                                                     |
+| ------------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Clothes       | Sunglasses                     | [Dirty Dog Racoon Sunglasses](https://www.airpointsstore.co.nz/Product/VMDD12/Racoon-Sunglasses)                                                                                |
+| Clothes       | Sun hat                        | Ciele ALZCap                                                                                                                                                                    |
+| Clothes       | Neck gaiter                    | Buff Coolnet UV                                                                                                                                                                 |
+| Clothes       | Long sleeve shirt              | [Patagonia Tropic Comfort Hoody II](https://www.patagonia.com/product/mens-tropic-comfort-hoody-ii/52124.html?dwvar_52124_color=RDPB)                                           |
+| Clothes       | Shorts                         | [Patagonia Men's Strider Pro Shorts - 7"](https://www.patagonia.co.nz/products/mens-strider-pro-shorts-7-24668-blk)                                                             |
+| Clothes       | Socks                          | [Creepers Merino Toe Socks - Crew Length Lightweight Hiking & Trail](https://creeperssocks.co.nz/products/crew-merino-wool-performance-toe-socks?variant=43156622770396)        |
+| Clothes       | Shoes                          | [norda™ 001](https://nordarun.com/products/001-m-stealth-black)                                                                                                                 |
+| Clothes       | Rain jacket                    | [Montbell Mens Storm Cruiser Jacket](https://coffeeoutdoors.co.nz/products/montbell-mens-storm-cruiser-jacket-brown-khaki)                                                      |
+| Clothes       | Down jacket                    | [Montbell Mens Plasma 1000 Alpine Down Parka](https://coffeeoutdoors.co.nz/products/montbell-mens-plasma-1000-alpine-down-parka-black)                                          |
+| Clothes       | Fleece top                     | [Macpac Men's Nitro Fleece Pullover](https://www.macpac.co.nz/macpac-mens-nitro-fleece-pullover/115606.html)                                                                    |
+| Clothes       | Baselayer top                  | [Macpac Men's Prothermal Fleece Top](https://www.macpac.co.nz/macpac-mens-prothermal-fleece-top/115322.html)                                                                    |
+| Clothes       | Gloves                         | [Black Diamond Wind Hood Polartec Gloves](https://www.blackdiamondequipment.com/en_US/product/wind-hood-gridtech-gloves/)                                                       |
+| Clothes       | Sleep socks                    | [Montbell Womens Walking Socks - Multi](https://coffeeoutdoors.co.nz/products/montbell-womens-walking-socks-multi)                                                              |
+| Pack          | Frameless pack                 | [Pa’lante Desert Pack](https://palantepacks.com/products/desert-pack-ss23)                                                                                                      |
+| Pack          | Pack liner                     | [Nylofume® Bag](https://coffeeoutdoors.co.nz/products/nylofume-waterproof-pack-liner)                                                                                           |
+| Pack          | Fanny pack                     | [Hyperlite Mountain Gear Versa](https://www.hyperlitemountaingear.com/products/versa-fanny-pack)                                                                                |
+| Pack          | Food bag                       | [SmellyProof Reusable 2 Gallon Bag](https://smellyproof.com/products/reusable-2-gallon-bags)                                                                                    |
+| Sleep         | Pillow                         | [Big Sky DreamSleeper™ DreamNation™ UltraLight inflatable pillow](https://bigskyinternational.com/en-nz/products/big-sky-dreamsleeper-dreamnation-ultralight-inflatable-pillow) |
+| Sleep         | Quilt                          | [Palisade 30°F (-1°C) + 2mm Cords](https://katabaticgear.com/shop/palisade-sleeping-bag)                                                                                        |
+| Sleep         | Pad                            | [Therm-a-Rest NeoAir® UberLite™](https://www.thermarest.com/ie/sleeping-pads/fast-and-light/neoair-uberlite-sleeping-pad/neoair-uberlite.html)                                  |
+| Shelter       | Trekking pole                  | [Black Diamond Alpine Carbon Z](https://www.blackdiamondequipment.com/en_US/product/alpine-carbon-z-trekking-poles/)                                                            |
+| Shelter       | Tarp                           | [MLD SoloMid XL + MLD 2.7mm Pro Guylines](https://mountainlaureldesigns.com/product/solomid-xl)                                                                                 |
+| Shelter       | Ground sheet                   | [Polycro](https://www.bunnings.co.nz/3m-window-insulator-kit-5-windows_p0167658)                                                                                                |
+| Shelter       | V-shaped stake                 | [Vargo Titanium Ascent Tent Stake (15.8 cm / 6.2 in)](https://vargooutdoors.com/titanium-ascent-tent-stake.html)                                                                |
+| Shelter       | Nail stake                     | [Big Sky International Tube Steak™ (15 cm / 6 in)](https://bigskyinternational.com/en-nz/collections/tube-steaks/products/tube-steak-tent-stake-peg-kit)                        |
+| Food & Water  | Pot                            | [Evernew Titanium Ultra Light 600ml Pot (ECA251)](https://www.traildesigns.com/products/evernew-titanium-ultra-light-600ml-pot-eca251)                                          |
+| Food & Water  | Stove                          | [Trail Designs Sidewinder Ti-Tri](https://www.traildesigns.com/products/evernew-600ml-ul-pot-sidewinder-ti-tri-bundle)                                                          |
+| Food & Water  | Spoon                          | [Sea to Summit Camp Cutlery Spoon](https://seatosummit.com.au/products/camp-spoon?variant=41261823033530)                                                                       |
+| Food & Water  | Water Bottle                   | [Pa'lante Water Bottle](https://palantepacks.com/products/water-bottle-fw23)                                                                                                    |
+| Food & Water  | Water Treatment                | Aquamira Water Treatment Drops                                                                                                                                                  |
+| Electronics   | Phone                          |                                                                                                                                                                                 |
+| Electronics   | Headlamp                       | [Nitecore® NU25 UL](https://flashlight.nitecore.com/product/nu25ul)                                                                                                             |
+| Electronics   | Watch                          | [Garmin Instinct® Solar – Tactical Edition](https://buy.garmin.com/en-US/US/p/716891/pn/010-02293-13)                                                                           |
+| Electronics   | Satellite communicator         | [Garmin inReach® Mini](https://explore.garmin.com/en-CA/inreach)                                                                                                                |
+| Electronics   | Headphones (Wireless)          | [Apple AirPods Pro (2nd generation) with MagSafe Charging Case (USB‑C)](https://www.apple.com/nz/shop/product/MTJV3ZA/A/airpods-pro)                                            |
+| Electronics   | Headphones (Wired)             | [Apple EarPods (Lightning Connector)](https://www.apple.com/nz/shop/product/MMTN2FE/A/earpods-lightning-connector)                                                              |
+| Electronics   | Power adapter                  | [ANKER PowerPort III mini 30W IQ 3.0 USB-C Charger](https://www.pbtech.co.nz/product/TAAAKR2615/ANKER-PowerPort-III-mini-30W-IQ-30-USB-C-Charger)                               |
+| Electronics   | Cable adapter                  | [Promate PENTAPOWER.BLK 6-in-1 Hybrid 1.2m Multi-Connector Cable](https://www.pbtech.co.nz/product/CABPRM1090/Promate-PENTAPOWERBLK-6-in-1-Hybrid-12m-Multi-Conn)               |
+| Electronics   | Power bank                     | [Nitecore NB10000 Powerbank](https://www.nitecore.co.nz/nb10000)                                                                                                                |
+| Miscellaneous | Dental, first aid & repair kit | [Custom](https://andrewskurka.com/backpacking-first-aid-kit-gear-list-downloadable-checklist)                                                                                   |
+| Miscellaneous | Swiss army knife               | [Victorinox Classic SD Stayglow](https://www.amazon.com/Victorinox-Classic-SD-Stayglow-58mm/dp/B000HMJYJO)                                                                      |
+| Miscellaneous | Trowel                         | [BoglerCo Ultralight Backpacking Trowel](https://www.boglerco.com/home)                                                                                                         |
+| Miscellaneous | Cloth                          | [Lightload Towel (Small)](https://www.litesmith.com/lightload-towels/)                                                                                                          |
+| Miscellaneous | Lighter                        | BIC Mini                                                                                                                                                                        |
+| Miscellaneous | Anti-chafe balm                | [Body Glide Original](https://www.bodyglide.com/product/body)                                                                                                                   |
+| Miscellaneous | Hand sanitiser                 | [Dettol Refresh Liquid Hand Sanisiter 50ml](https://www.chemistwarehouse.co.nz/buy/56710/dettol-refresh-liquid-hand-sanisiter-50ml-healthy-touch-antibacterial)                 |
+| Miscellaneous | Sunscreen                      | [ZOOP SPF40 4 Hrs WR Pro Performance Sunscreen - 85ml](https://www.zoopnz.com/shop/p/spf40-pro-performance-sunscreen-lava-jdegf)                                                |
+| Miscellaneous | Lip Balm                       | [ZOOP SPF30 Lip Balm - Manuka Honey and Kiwi Fruit](https://www.zoopnz.com/shop/p/lipbalm)                                                                                      |
+| Miscellaneous | Toothpaste                     | [Colgate Sensitive Pro Relief Sensitive 40g](https://www.chemistwarehouse.co.nz/buy/84047/colgate-sensitive-pro-relief-sensitive-teeth-pain-toothpaste-50g)                     |
+| Miscellaneous | Insect repellent               | [Ben's® 100 Tick & Insect Repellent 1.25 oz. Pump Spray](https://bens30.com/deet/100-deet/bens-100-max-1-25oz-pump.html)                                                        |
