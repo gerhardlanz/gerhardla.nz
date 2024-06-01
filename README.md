@@ -2,15 +2,16 @@
 layout: default
 permalink: /
 ---
-# GERHARD LA<i>(dot)</i>NZ
+# GERHARD LA *(dot)* NZ
+
 ## he/him
 
-→ [Blog](blog)<br>
-→ [Downloads](downloads)<br>
-→ [Now](now)<br>
-→ [Uses](uses)<br>
+→ [Blog](blog)  
+→ [Downloads](downloads)  
+→ [Now](now)  
+→ [Uses](uses)
 
 [me@gerhardla.nz](mailto:me@gerhardla.nz)
 
-→ [Colophon](colophon)<br>
-→ [Privacy](privacy)<br>
+→ [Colophon](colophon)
+→ [Privacy](privacy)

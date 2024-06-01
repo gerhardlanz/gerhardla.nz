@@ -2,7 +2,7 @@
 layout: default
 ---
 # Colophon
-<br>
+
 * Designed and developed by Gerhard Lanz
 * Typeset in sans-serif system font
 * Statically generated with [Jekyll](https://jekyllrb.com)

@@ -2,10 +2,9 @@
 layout: default
 ---
 # Blog
-<br>
 
-→ [RSS](../feed.xml)<br>
-→ [JSON](../feed.json)<br>
+→ [RSS](../feed.xml)  
+→ [JSON](../feed.json)
 
 <ul>
   {% for post in site.posts %}
