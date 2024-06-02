@@ -4,8 +4,6 @@ permalink: /
 ---
 # GERHARD LA *(dot)* NZ
 
-## he/him
-
 → [Blog](blog)  
 → [Downloads](downloads)  
 → [Now](now)  
@@ -13,5 +11,5 @@ permalink: /
 
 [me@gerhardla.nz](mailto:me@gerhardla.nz)
 
-→ [Colophon](colophon)
+→ [Colophon](colophon)  
 → [Privacy](privacy)
