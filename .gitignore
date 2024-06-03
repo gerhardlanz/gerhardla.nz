@@ -7,3 +7,5 @@ _site/
 vendor/
 .DS_Store
 Gemfile.lock
+# Ignore settings for VS Code
+.vscode/settings.json
