@@ -12,5 +12,5 @@ permalink: /
 [me@gerhardla.nz](mailto:me@gerhardla.nz)
 
 → [Colophon](colophon)  
-→ [Privacy](privacy)
+→ [Privacy](privacy)  
 → [Source](https://github.com/gerhardlanz)
