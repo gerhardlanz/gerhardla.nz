@@ -5,7 +5,6 @@ permalink: /
 # GERHARD LA *(dot)* NZ
 
 → [Blog](blog)  
-→ [Downloads](downloads)  
 → [Now](now)  
 → [Uses](uses)
 
