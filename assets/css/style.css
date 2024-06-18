@@ -91,7 +91,18 @@ line-height: 1;
 margin-top: 0;
 }
 
-h2, h3, h4, h5 {
+h2 {
+font-size: 2em;
+line-height: 1;
+margin-top: 0;
+}
+
+h3 {
+font-size: 1.5em;
+line-height: 1;
+}
+
+h4, h5 {
 font-size: 100%
 }
 
@@ -101,7 +112,7 @@ background-color: var(--code-color);
 font-size: 80%;
 margin-right: 2px;
 padding: .2em .3em;
-white-space: nowrap
+white-space: nowrap;
 width: 40em;
 }
 
@@ -116,7 +127,7 @@ white-space: pre-wrap;
 white-space: -moz-pre-wrap;
 white-space: -pre-wrap;
 white-space: -o-pre-wrap;
-word-wrap: break-word
+word-wrap: break-word;
 width: 40em;
 }
 
