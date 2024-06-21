@@ -4,6 +4,8 @@ permalink: /
 ---
 # GERHARD LA *(dot)* NZ
 
+![Gerhard's desk](assets/desk.jpeg "Gerhard's desk")
+
 → [Blog](blog)  
 → [Now](now)  
 → [Uses](uses)
