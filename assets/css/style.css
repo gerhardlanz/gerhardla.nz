@@ -50,6 +50,31 @@ a:link, a:visited {
 color: inherit
 }
 
+
+:root {
+    --mainColor: #00FFCC;
+  }
+  
+  
+  a {
+    background:
+       linear-gradient(
+         to bottom, var(--mainColor) 0%,
+         var(--mainColor) 100%
+       );
+      background-position: 0 100%;
+      background-repeat: repeat-x;
+      background-size: 2px 2px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .8s;
+    border-bottom: 0px;
+  }
+  
+  a:hover {
+    background-size: 4px 50px;
+  }
+
 .dark, .light{
 margin: 0
 }
@@ -81,7 +106,7 @@ margin-bottom: 1.15rem
 }
 
 h1, h2, h3, h4, h5 {
-font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, "helvetica neue", helvetica, Ubuntu, roboto, noto, "segoe ui", arial, sans-serif;
 font-weight: 400
 }
 
@@ -107,13 +132,13 @@ font-size: 100%
 }
 
 code {
-font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+font-family: Menlo, Consolas, Monaco, "Liberation Mono", "Lucida Console", monospace;
 background-color: var(--code-color);
 font-size: 80%;
 margin-right: 2px;
 padding: .2em .3em;
 white-space: nowrap;
-width: 40em;
+width: 40em
 }
 
 pre code {
@@ -124,22 +149,19 @@ line-height: 1.65em;
 margin: auto -1em;
 padding: .65em 1em;
 white-space: pre-wrap;
-white-space: -moz-pre-wrap;
-white-space: -pre-wrap;
-white-space: -o-pre-wrap;
 word-wrap: break-word;
-width: 40em;
+width: 40em
 }
 
 ol {
 list-style-position: outside;
-padding: 1
+padding: 1em
 }
 
 ul {
 list-style-position: outside;
 list-style-type: circle;
-padding: 1
+padding: 1em
 }
 
 table, td, th {
