@@ -80,7 +80,7 @@ margin: 0
 }
 
 body {
-font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+font-family: sans-serif;
 background: var(--background-color);
 color: var(--body-color);
 line-height: 1.65;
@@ -106,7 +106,7 @@ margin-bottom: 1.15rem
 }
 
 h1, h2, h3, h4, h5 {
-font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, "helvetica neue", helvetica, Ubuntu, roboto, noto, "segoe ui", arial, sans-serif;
+font-family: sans-serif;
 font-weight: 400
 }
 
