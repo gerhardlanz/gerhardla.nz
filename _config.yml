@@ -3,7 +3,6 @@ markdown: CommonMark
 title: Gerhard Lanz
 url: https://gerhardla.nz
 permalink: /:title
-repository: gerhardlanz/gerhardla.nz
 
 plugins:
   - jekyll-commonmark
