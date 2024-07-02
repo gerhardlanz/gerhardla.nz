@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Draft Post"
-date:
 ---
 
 # Uses
