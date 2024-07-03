@@ -1,62 +1,113 @@
 <!doctype html>
-
 <html lang="en-GB">
 
 <head>
+    <style>
+        :root {
+            color-scheme: light dark
+        }
 
-	<meta charset="UTF-8">
+        body {
+            color: light-dark(#212121, #fafafa);
+            background-color: light-dark(#fafafa, #212121);
+            font: 110%/1.65 system-ui
+        }
+
+        nav,
+        article,
+        footer {
+            margin: 2em;
+            max-width: 60ch
+        }
+
+        h1,
+        h2,
+        h3 {
+            line-height: 1.2;
+            margin-top: 2em;
+            text-wrap: balance
+        }
+
+        a {
+            color: unset;
+            border-bottom: solid aquamarine;
+            text-decoration: none
+        }
+
+        blockquote {
+            border-left: solid 1px;
+            font: italic 95%/1.4 system-ui;
+            margin: 2.5rem 0;
+            padding: 0 4%
+        }
+
+        code {
+            background-color: light-dark(#f5f5f5, #333);
+            border-radius: 3px;
+            margin-right: 2px;
+            padding: .2em .3em;
+            white-space: nowrap
+        }
+
+        pre code {
+            background-color: light-dark(#f5f5f5, #333);
+            border-radius: 3px;
+            display: inline-block;
+            margin: auto -1em;
+            padding: .65em 1em;
+            white-space: pre-wrap;
+            word-wrap: break-word
+        }
+
+        time {
+            font: italic 90%/1.4 system-ui
+        }
+
+        img {
+            border-radius: 3px;
+            max-width: 100%;
+        }
+    </style>
+    <meta charset="UTF-8">
     <meta name="robots" content="noindex, nofollow">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="author" content="Gerhard Lanz">
-	<meta name="description" content="he/him">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Gerhard Lanz">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
     <link rel="manifest" href="/assets/site.webmanifest">
     <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#5bbad5">
     <link rel="shortcut icon" href="/assets/favicon.ico">
+    <meta name="color-scheme" content="light dark">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="/assets/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-
-    <link rel="preload" href="/assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.rel='stylesheet'">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="theme-color" content="#f5f5f5" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#333" media="(prefers-color-scheme: light)">
     <link rel="canonical" href="{{ page.url | prepend: site.url }}">
-
-	{% feed_meta %}
-
-    <title>{% if page.permalink == '/' %}{{ site.title }}{% else %}{{ page.title }} • {{ site.title }}{% endif %}</title>
-
+    {% feed_meta %}
+    <title>{% if page.permalink == '/' %}{{ site.title }}{% else %}{{ page.title }} • {{ site.title }}{% endif %}
+    </title>
 </head>
 
 <body>
-
-	<div class="container">
-
-		<div class="nav">
-			<nav>
+    <div>
+        <nav>
+            <small>
                 <a href="/">Home</a>
-            </nav>
-		</div>
-        
-        <div class="h-entry">{{ content }}<br></div>
-        
-		<div class="rights">
-                © 2019–2024<br>
-                Content licensed under <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a><br>
-                Source code licenced under <a rel="license" href="https://github.com/gerdspatial/gerhardla.nz/blob/master/LICENSE">MIT</a><br>
-		</div>
-        
-        <div class="footer"><br>
-            <footer>
-                    <p class="light">☼ Light Mode</p>
-                    <p class="dark">☾ Dark Mode</p>
-                    Last updated {{ "now" | date: "%B %Y" }}<br>
-                    <a href="#">↑ Back to top</a><br>
-            </footer>
-        </div>
+            </small>
+        </nav>
+        <article>{{ content }}<br></article>
+        <footer>
+            <small>
+                Content licensed under <a href="http://creativecommons.org/licenses/by/4.0/">CC-BY 4.0 ↗</a><br>
+                Source code licenced under <a href="https://github.com/gerdspatial/gerhardla.nz/blob/master/LICENSE">MIT
+                    ↗</a><br>
+                © 2019–2024 Gerhard Lanz<br>
+                <time datetime="{{ now }}">Updated {{ "now" | date: "%B %Y" }}</time><br><br>
+                <a href="#">↑ Back to top</a>
+            </small>
+        </footer>
+    </div>
+</body>
 
-	</div>
-
-</body></html>
+</html>
