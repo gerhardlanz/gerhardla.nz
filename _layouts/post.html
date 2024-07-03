@@ -2,14 +2,21 @@
 layout: default
 ---
 
-<h1 class="p-name">{{ page.title }}</h1>
-<br>
+<h1>{{ page.title }}</h1>
 
-<p><i>
-    <time class="dt-published" datetime="{{ page.date }}">{{ page.date | date: "%Y-%m-%d" }}</time>
-</i></p>
+<p>
+    <small>
+        <time datetime="{{ page.date }}">Published {{ page.date | date: "%Y-%m-%d" }}</time>
+    </small>
+</p>
 
-<div class="e-content">{{ content }}<br></div>
-</body>
+<p>
+    {{ content }}
+    ∎
+</p>
 
-<div class="e-footer"></div><a href="mailto:me@gerhardla.nz?subject={{ site.url }}{{page.url}}">Reply by email</a></br></div></html>
+<p>
+    <small>
+        <a href="mailto:me@gerhardla.nz?subject={{ site.url }}{{ page.url }}">Reply by email</a>
+    </small>
+</p>
