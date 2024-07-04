@@ -18,13 +18,13 @@ This is just a warning – and safe to ignore – but follow these steps to fix 
 
 1. Create a Github [personal access token ↗](https://help.github.com/articles/creating-an-access-token-for-command-line-use/).
 
-    a. In the upper-right corner of any page on GitHub, select the profile photo and navigate to *Settings > Developer settings > Personal access tokens > Fine-grained personal access tokens > Generate new token*.
+    1. In the upper-right corner of any page on GitHub, select the profile photo and navigate to *Settings > Developer settings > Personal access tokens > Fine-grained personal access tokens > Generate new token*.
 
-    b. Provide a token name and expiration.
+    2. Provide a token name and expiration.
 
-    c. Select *Repository access > Public Repositories (read-only)*.
+    3. Select *Repository access > Public Repositories (read-only)*.
 
-    d. Select *Generate token*.
+    4. Select *Generate token*.
 
 2. Open terminal and check the default shell.
 
