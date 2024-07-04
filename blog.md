@@ -11,5 +11,4 @@ layout: default
   {% endfor %}
 </ul>
 
-→ [JSON](../feed.json)  
 → [RSS](../feed.xml)
