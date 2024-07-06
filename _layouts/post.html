@@ -6,12 +6,10 @@ layout: default
 
 <p>
     <small>
-        <time datetime="{{ page.date }}">Published {{ page.date | date: "%Y-%m-%d" }}</time>
+        Published {{ page.date | date: "%Y-%m-%d" }}
         • {% assign words = content | number_of_words %} {{ words }} words • 
-
         {% if words < 360 %} 1 min {% else %} {{ words | divided_by:180 }} mins {% endif %} read</small>
 </p>
-
 
 <p>
     {{ content }}
