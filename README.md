@@ -2,6 +2,7 @@
 layout: default
 permalink: /
 ---
+
 # GERHARD LA *(dot)* NZ
 
 ![Gerhard's desk](assets/desk.jpeg)
