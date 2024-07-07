@@ -5,8 +5,8 @@ permalink: /
 
 # GERHARD LA *(dot)* NZ
 
-![Gerhard's desk](assets/desk.jpeg)
+<img src="assets/desk.jpeg" width='400' alt="Gerhard's desk">
 
-→ [About](about)  
-→ [Blog](blog)  
-→ [Now](now)  
+→ [About](about)
+→ [Blog](blog)
+→ [Now](now)
