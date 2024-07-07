@@ -1,10 +1,8 @@
-author: Gerhard Lanz
-markdown: CommonMark
-permalink: /:title
-repository: gerhardlanz/gerhardla.nz
 title: Gerhard Lanz
-
+markdown: CommonMark
+repository: gerhardlanz/gerhardla.nz
 url: https://gerhardla.nz
+permalink: /:title
 
 plugins:
   - jekyll-commonmark
