@@ -3,6 +3,7 @@ markdown: CommonMark
 permalink: /:title
 repository: gerhardlanz/gerhardla.nz
 title: Gerhard Lanz
+
 url: https://gerhardla.nz
 
 plugins:
@@ -10,13 +11,8 @@ plugins:
   - jekyll-feed
   - jekyll-readme-index
   - jekyll-sitemap
+  - jekyll-titles-from-headings
 
 markdown: CommonMark
 commonmark:
-  options: ["SMART", "FOOTNOTES", "UNSAFE", "HARDBREAKS"]
-  extensions: ["strikethrough", "autolink", "table"]
-
-readme_index:
-  enabled: true
-  remove_originals: false
-  with_frontmatter: false
+  options: ["smart", "unsafe", "hardbreaks"]
