@@ -6,11 +6,11 @@ layout: default
 
 Hi, I'm Gerhard Lanz.
 
-I am a senior geospatial advisor from New Zealand. I develop creative solutions to spatial problems. I am driven by a desire to improve our understanding of the world, making positive impact through location information.
+Senior spatial advisor to the aspatial. Based in Aotearoa, New Zealand, I develop creative solutions to geospatial problems. Driven by a desire to improve our understanding of the world, I seek to make positive impact through location information.
 
-I have a background in traditional graphic design. As a result, I am drawn to projects that need a high degree of craft, vision, and design thinking. I am passionate about minimalism and simplicity. I strive to incorporate these values into my work and life.
+I have a background in traditional graphic design. And as a result, I'm drawn to projects that need a high degree of craft, vision, and design thinking. I am passionate about minimalism and simplicity, and strive to incorporate these values into all aspects of life.
 
-I apply an “ultralight mentality” to both backpacking (known as *tramping* in Zealand) and everyday life. When I’m not at my keyboard, I enjoy being outdoors. Please email me@gerhardla.nz.
+When I’m not at my keyboard, I enjoy being outdoors and offline. Please email me@gerhardla.nz.
 
 ## Accessibility
 
@@ -19,6 +19,8 @@ The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standar
 I welcome your feedback on the accessibility of gerhardla.nz. Please let me know if you encounter accessibility barriers on the website by sending me an email or opening an issue on [GitHub](https://github.com/gerhardlanz/gerhardla.nz/issues/new). An [evaluation report for gerhardla.nz](https://wave.webaim.org/report#/gerhardla.nz) is also available.
 
 ## Colophon
+
+I apply an “[ultralight](https://www.reddit.com/r/Ultralight/) mentality” to both backpacking (known as *tramping* in Zealand) and design. This is reflected in my personal website, which also endeavors to "leave no trace."
 
 * Designed and developed by Gerhard Lanz
 * Typeset in your default sans-serif font
