@@ -4,7 +4,7 @@ layout: default
 
 # About
 
-Hi, I'm Gerhard Lanz.
+Hello! I'm Gerhard Lanz (he/him).
 
 Senior spatial advisor to the aspatial. Based in Aotearoa, New Zealand, I develop creative solutions to geospatial problems. Driven by a desire to improve our understanding of the world, I seek to make positive impact through location information.
 
