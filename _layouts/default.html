@@ -3,7 +3,73 @@
 
 <head>
     <style>
-        :root{color-scheme:light dark}body{color:light-dark();background-color:light-dark();font:100%/1.65 sans-serif}article,footer,nav{margin:2em;max-width:60ch}h1,h2,h3{line-height:1.2;margin-top:2em;text-wrap:balance}a{color:light-dark(DimGray, DarkGray);text-underline-offset:3px;text-decoration-style:dotted;text-decoration-color:light-dark(DimGray, DarkGray);text-decoration-thickness:1px;transition:background 0.2s linear}a:hover{background:light-dark(#3FC,#0FC) !important}blockquote{border-left:solid 1px;font:italic 95%/1.4 sans-serif;margin:2.5rem 0;padding:0 4%}code{background-color:light-dark(WhiteSmoke, Black);border-radius:3px;margin-right:2px;padding:0.2em 0.3em;white-space:nowrap}pre code{background-color:light-dark(WhiteSmoke, Black);border-radius:3px;display:inline-block;margin:auto -1em;padding:0.65em 1em;white-space:pre-wrap;word-wrap:break-word}img{border-radius:3px;max-width:100%}
+        :root {
+            color-scheme: light dark
+        }
+
+        body {
+            color: light-dark();
+            background-color: light-dark();
+            font: 100%/1.65 sans-serif
+        }
+
+        article,
+        footer,
+        nav {
+            margin: 2em;
+            max-width: 60ch
+        }
+
+        h1,
+        h2,
+        h3 {
+            line-height: 1.2;
+            margin-top: 2em;
+            text-wrap: balance
+        }
+
+        a {
+            color: light-dark(DimGray, DarkGray);
+            text-underline-offset: 3px;
+            text-decoration-style: dotted;
+            text-decoration-color: light-dark(DimGray, DarkGray);
+            text-decoration-thickness: 1px;
+            transition: background 0.2s linear
+        }
+
+        a:hover {
+            background: light-dark(Chartreuse, Green) !important
+        }
+
+        blockquote {
+            border-left: solid 1px;
+            font: italic 95%/1.4 sans-serif;
+            margin: 2.5rem 0;
+            padding: 0 4%
+        }
+
+        code {
+            background-color: light-dark(WhiteSmoke, DarkSlateGray);
+            border-radius: 3px;
+            margin-right: 2px;
+            padding: 0.2em 0.3em;
+            white-space: nowrap
+        }
+
+        pre code {
+            background-color: light-dark(WhiteSmoke, DarkSlateGray);
+            border-radius: 3px;
+            display: inline-block;
+            margin: auto -1em;
+            padding: 0.65em 1em;
+            white-space: pre-wrap;
+            word-wrap: break-word
+        }
+
+        img {
+            border-radius: 3px;
+            max-width: 100%
+        }
     </style>
     <meta charset="UTF-8">
     <meta name="robots" content="noindex, nofollow">
@@ -36,7 +102,8 @@
         <article>{{ content }}<br></article>
         <footer>
             <small>
-                Updated <a href="/now">{{ "now" | date: "%B %Y" }}</a> by <a href="/about">Gerhard Lanz</a> using <a href="/uses">this tech</a>.<br><br>
+                Updated <a href="/now">{{ "now" | date: "%B %Y" }}</a> by <a href="/about">Gerhard Lanz</a> using <a
+                    href="/uses">this tech</a>.<br><br>
                 <a href="#">↑ Back to top</a>
         </footer>
     </div>
