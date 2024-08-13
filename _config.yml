@@ -3,11 +3,11 @@ markdown: CommonMark
 repository: gerhardlanz/gerhardla.nz
 url: https://gerhardla.nz
 permalink: /:title
+future: true
 
 plugins:
   - jekyll-commonmark
   - jekyll-feed
-  - jekyll-readme-index
   - jekyll-sitemap
   - jekyll-titles-from-headings
 
