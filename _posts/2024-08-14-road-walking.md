@@ -4,7 +4,7 @@ title:  "Road walking"
 date: 2024-08-14
 ---
 
-Thoughts on road walking, collected during a 140 km (87 mi) walk in New Zealand from Wellington to the Wairarapa. The walk took me from urban to rural with sections of backcountry throughout. About 70 km (44 mi) in total was road walking. 
+*Thoughts on road walking, collected during a 140 km (87 mi) walk in New Zealand from Wellington to the Wairarapa. The walk took me from urban to rural with sections of backcountry throughout. About 70 km (44 mi) in total was road walking.*
 
 Navigating traffic on foot is more dangerous than any exposed ridgeline. Heightened situational awareness is key to survival. These tips are for next time you're walking between trailheads.
 
