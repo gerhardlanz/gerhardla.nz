@@ -30,7 +30,7 @@
 
         a {
             color: light-dark(#06F, #9CF);
-            text-decoration: underline;
+            text-decoration: none;
             text-decoration-color: light-dark(#06F, #9CF);
             text-decoration-thickness: 1px;
             text-underline-offset: 3px
@@ -89,16 +89,16 @@
 
 <body>
     <div>
-        <nav>
-            <small>
-                <a href="/">Gerhard Lanz</a>
-            </small>
-        </nav>
         <article>{{ content }}<br></article>
         <footer>
             <small>
-                Updated <a href="/now">{{ "now" | date: "%B %Y" }}</a> by <a href="/about">Gerhard Lanz</a> using <a
-                    href="/uses">this tech</a>.<br><br>
+                <a href="mailto:me@gerhardla.nz?subject={{ site.url }}{{ page.url }}">Email ↗</a><br>
+                <a href="/assets/gerhardlanz.asc">Public Key ↓</a> (ASC, 4 KB)<br>
+                Colophon: <a href="https://jekyllrb.com">Jekyll</a>, <a href="https://pages.github.com">Github Pages</a><br>
+                <a href="https://www.websitecarbon.com/website/gerhardla-nz/)">Footprint</a> <code>0.03g of CO2</code><br>
+                Source: <a href="https://github.com/gerhardlanz/gerhardla.nz">gerhardlanz/gerhardla.nz ↗</a><br>
+                Updated <code>{{ "now" | date: "%Y-%m-%d %T" }}</code><br>
+                © 2024 Gerhard Lanz<br><br>
                 <a href="#">↑ Back to top</a>
         </footer>
     </div>
