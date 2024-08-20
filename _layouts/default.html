@@ -7,25 +7,51 @@
             color-scheme: light dark
         }
 
-        body {
-            color: light-dark(#25211D, #DDD);
-            background-color: light-dark(#F6F6F6, #151515);
-            font: 100%/1.8 system-ui, sans-serif
+        .background-green {
+            position: absolute;
+            top: 30%;
+            left: 60%;
+            transform: translate(-50%, 0%);
+            width: 50%;
+            height: 50%;
+            border-radius: 50% 22% 40% 80%;
+            filter: blur(100px);
+            background: radial-gradient(circle at 50% 50%, rgba(50, 205, 50, 1), rgba(76, 0, 255, 0));
+            opacity: 0.15;
         }
 
-        article,
-        footer,
-        nav {
-            margin: 2em;
-            max-width: 60ch
+        .background-blue {
+            position: absolute;
+            top: 15%;
+            left: 75%;
+            transform: translate(-50%, 0%);
+            width: 50%;
+            height: 50%;
+            border-radius: 50% 22% 40% 80%;
+            filter: blur(100px);
+            background: radial-gradient(circle at 50% 50%, rgba(0, 102, 255, 1), rgba(76, 0, 255, 0));
+            opacity: 0.25;
+        }
+
+        body {
+            color: light-dark(#000000DE, #DDD);
+            background-color: light-dark(#FFF, #151515);
+            font: 100%/1.8 system-ui, sans-serif
         }
 
         h1,
         h2,
         h3 {
-            line-height: 1.2;
-            margin-top: 2em;
-            text-wrap: balance
+            color: light-dark(#000000DE, #DDD);
+            font: 100%/1.8 system-ui, sans-serif;
+            letter-spacing: 0.4em;
+            text-transform: uppercase
+        }
+
+        article,
+        footer {
+            margin: 2em;
+            max-width: 60ch
         }
 
         a {
@@ -36,7 +62,12 @@
             text-underline-offset: 3px
         }
 
+        a:hover {
+            color: transparent;
+        }
+
         blockquote {
+            color: light-dark(#00000099, #DDD);
             border-left: solid 1px;
             font: italic 95%/1.4 sans-serif;
             margin: 2.5rem 0;
@@ -61,6 +92,11 @@
             word-wrap: break-word
         }
 
+        small {
+            color: light-dark(#00000099, #DDD);
+            font-size: 0.8em
+        }
+
         img {
             border-radius: 3px;
             max-width: 100%
@@ -69,18 +105,15 @@
     <meta charset="UTF-8">
     <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Gerhard Lanz">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
     <link rel="manifest" href="/assets/site.webmanifest">
-    <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#fff">
+    <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#32cd32">
     <link rel="shortcut icon" href="/assets/favicon.ico">
-    <meta name="color-scheme" content="light dark">
-    <meta name="msapplication-TileColor" content="#fff">
+    <meta name="msapplication-TileColor" content="#00a300">
     <meta name="msapplication-config" content="/assets/browserconfig.xml">
-    <meta name="theme-color" content="#EEE" media="(prefers-color-scheme: dark)">
-    <meta name="theme-color" content="#333" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#ffffff">
     <link rel="canonical" href="{{ page.url | prepend: site.url }}">
     {% feed_meta %}
     <title>{% if page.permalink == '/' %}{{ site.title }}{% else %}{{ page.title }} • {{ site.title }}{% endif %}
@@ -88,18 +121,18 @@
 </head>
 
 <body>
+    <div class="background-green"></div>
+    <div class="background-blue"></div>
     <div>
         <article>{{ content }}<br></article>
         <footer>
             <small>
-                <a href="mailto:me@gerhardla.nz?subject={{ site.url }}{{ page.url }}">Email ↗</a><br>
-                <a href="/assets/gerhardlanz.asc">Public Key ↓</a> (ASC, 4 KB)<br>
-                Colophon: <a href="https://jekyllrb.com">Jekyll</a>, <a href="https://pages.github.com">Github Pages</a><br>
-                <a href="https://www.websitecarbon.com/website/gerhardla-nz/)">Footprint</a> <code>0.03g of CO2</code><br>
-                Source: <a href="https://github.com/gerhardlanz/gerhardla.nz">gerhardlanz/gerhardla.nz ↗</a><br>
-                Updated <code>{{ "now" | date: "%Y-%m-%d %T" }}</code><br>
-                © 2024 Gerhard Lanz<br><br>
-                <a href="#">↑ Back to top</a>
+                Source: <a href="https://github.com/gerhardlanz/gerhardla.nz">gerhardlanz/gerhardla.nz</a><br>
+                Colophon: <a href="https://jekyllrb.com">Jekyll</a>, <a href="https://pages.github.com">Github
+                    Pages</a><br>
+                © 2024 Gerhard<br>
+                Updated: <code>{{ "now" | date: "%Y·%m·%d" }}</code><br>
+            </small>
         </footer>
     </div>
 </body>
