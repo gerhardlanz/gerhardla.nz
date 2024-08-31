@@ -1,19 +1,10 @@
-title: Gerhard Lanz
 markdown: CommonMark
-repository: gerhardlanz/gerhardla.nz
-url: https://gerhardla.nz
 permalink: /:title
-future: true
-collections:
-  notes:
-    output: true
-    permalink: /:title
+title: Gerhard
     
 plugins:
-  - jekyll-commonmark
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-titles-from-headings
 
 markdown: CommonMark
 commonmark:
