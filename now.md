@@ -4,9 +4,8 @@ permalink: /now
 title: Now
 ---
 
-Last updated {{ date.now | date: "%A, %B %d, %Y — %H:%M" }}
+<small>Updated {{ "now" | date:"%A, %d %B %Y — %H:%M" }}</small>
 
-* Designing & building a [canvas app](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/getting-started) in Microsoft Power Apps
-* Learning [FontForge](https://fontforge.org/) and designing a font in the process
-* Redesigning my personal website
+* Working as a Senior Geospatial Advisor
 * Preparing to walk [Te Araroa](https://www.teararoa.org.nz)
+* Learning [FontForge](https://fontforge.org/)
