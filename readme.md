@@ -1,6 +1,42 @@
-This website:
-* is ad-free and does not use any tracking scripts  nor does it collect, use, or share any personal data
-* aims to be accessible and fully conformant with [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.1 level AA
-* aspires to the speed and privacy of the printed page
-* has a <a href="https://www.websitecarbon.com/website/gerhardla-nz/)">carbon footprint of </a><code>0.03g of CO2</code><br>
-* is [GDPR compliant](https://gdpr.eu/)
+
+# gerhardla.nz
+
+Content for https://gerhardla.nz
+
+##
+
+## Run locally
+
+To run this website locally, follow these steps:
+
+1. Make sure you have Ruby 2.X.X installed:
+    ```
+    ruby --version
+    ```
+
+2. Install bundler using gem:
+    ```
+    gem install bundler
+    ```
+
+3. Clone the repository to your local machine:
+    ```
+    git clone https://github.com/gerhardlanz/gerhardla.nz
+    ```
+
+4. Navigate to the project directory:
+    ```
+    cd gerhardla.nz
+    ```
+
+5. Install Jekyll:
+    ```
+    bundle install  
+    ```
+
+5. Compile and serve the website:
+    ```
+    jekyll serve
+    ```
+
+6. Open your web browser and visit `http://localhost:4000` to view the website.
