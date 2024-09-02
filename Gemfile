@@ -9,5 +9,4 @@ group :jekyll_plugins do
   gem 'faraday-retry'
   gem 'jekyll-feed'
   gem 'jekyll-sitemap'
-  gem 'jekyll-titles-from-headings'
 end
