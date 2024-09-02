@@ -8,9 +8,9 @@ Hello, I'm Gerhard (IPA — /ˈɡeːɐ̯.haʁt/),
 a spatial professional, full-time house sitter, & walker.
 I specialise in geospatial analysis, GIS, and remote sensing.
 I'm living and working remotely in Aotearoa, New Zealand.
-You should subscribe to my [newsletter](ta-sobo.gerhardla.nz).
+You should subscribe to my temporal [newsletter](ta-sobo.gerhardla.nz).
 [Peter Lawrence ↗](https://www.youtube.com/watch?v=Hw4E8nXcrTk) is my spirit decorator.
 [Five Pound Pete ↗](https://www.youtube.com/watch?v=xvngY_af5-E) is my spirit animal.
 (Proper) crisps are my spirit food.
-Contact me [via email ↗](mailto:me@gerhardla.nz?subject={{ site.url }}) or signal: gerhard.01
-<a href="/assets/public-key.asc">Public key ↓</a> (ASC, 4 KB)
+Contact me [via email ↗](mailto:me@gerhardla.nz?subject={{ site.url }})
+<a href="/assets/public-key.asc">Public key ↓</a>
