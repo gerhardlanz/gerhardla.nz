@@ -1,6 +1,11 @@
 markdown: CommonMark
 permalink: /:title
 title: Gerhard
+
+collections:
+  notes:
+    output: true
+    permalink: /:title
     
 plugins:
   - jekyll-feed

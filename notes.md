@@ -3,9 +3,9 @@ layout: default
 permalink: /notes
 title: Notes
 ---
+
 <br>
-{% assign notes = site.posts | where: "layout","note"%}
-{% for post in notes %}
-## <small>[{{ post.date | date: "%A, %d %B %Y — %H%M" }}]({{ post.url }})</small>
-{{ post.content }}<br>
+{% for note in site.notes %}
+## <small>[{{ note.date | date: "%A, %d %B %Y — %H%M" }}]({{ note.url }})</small>
+{{ note.content | markdownify }}<br>
 {% endfor %}

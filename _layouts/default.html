@@ -114,7 +114,7 @@
     </nav>
 
     <header>
-        <br><h1>{% if page.permalink == '/' %}{{ site.title }}{% else %}{{ page.title }}{% endif %}</h1>
+        <br><h1>{% if page.permalink == '/' %}{{ site.title }}{% elsif page.collection == 'notes' %}{{ page.date | date: "%A, %B %d, %Y — %H:%M" }}{% else %}{{ page.title }}{% endif %}</h1>
     </header>
 
     <article>{{ content }}</article>
