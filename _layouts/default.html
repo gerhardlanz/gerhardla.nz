@@ -102,8 +102,7 @@
     <link rel="manifest" href="/manifest.webmanifest">
     <link rel="canonical" href="{{ page.url | prepend: site.url }}">
     {% feed_meta %}
-    <title>{% if page.permalink == '/' %}{{ site.title }}{% else %}{{ page.title }} • {{ site.title }}{% endif %}
-    </title>
+    <title>{% if page.permalink == '/' %}{{ site.title }}{% elsif page.collection == 'notes' %}{{ page.date | date: "%A, %B %d, %Y — %H:%M" }}{% else %}{{ page.title }}{% endif %}</title>
 </head>
 
 <body>
