@@ -11,7 +11,6 @@ Designed and developed by Gerhard, gerhardla.nz went online in 2019. This websit
 * Statically generated with [Jekyll](https://jekyllrb.com)
 * Built in [Visual Studio Code](https://code.visualstudio.com/)
 * Hosted on [Github Pages](https://pages.github.com)
-* Source code on [Github](https://github.com/gerhardlanz/gerhardla.nz)
 
 ## Run locally
 
