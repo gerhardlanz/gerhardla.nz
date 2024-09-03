@@ -14,12 +14,12 @@
             font: 100%/1.8 system-ui, sans-serif;
             grid-template-areas:
                 ". . ."
-                ". nav ."
                 ". header ."
-                ". article ."
-                ". footer .";
-            grid-template-columns: 3rem 60ch 3rem;
-            grid-template-rows: 2rem auto auto 1fr auto 2rem;
+                ". main ."
+                ". footer ."
+                ". . .";
+            grid-template-columns: 2rem 60ch 2rem;
+            grid-template-rows: 2rem auto 1fr auto 2rem;
             margin: 0;
             min-height: 100vh
         }
@@ -31,19 +31,17 @@
             background-color: light-dark(#FFF, #151515);
             font: 100%/1 system-ui, sans-serif;
             letter-spacing: 0.25em;
+            margin: 0;
+            padding: 0;
             text-transform: uppercase
-        }
-
-        nav {
-            grid-area: nav
         }
 
         header {
             grid-area: header
         }
 
-        article {
-            grid-area: article
+        main {
+            grid-area: main
         }
 
         footer {
@@ -98,27 +96,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="/favicon.ico" sizes="32x32">
     <link rel="icon" href="/icon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="manifest" href="/manifest.webmanifest">
     <link rel="canonical" href="{{ page.url | prepend: site.url }}">
     {% feed_meta %}
-    <title>{% if page.permalink == '/' %}{{ site.title }}{% elsif page.collection == 'notes' %}{{ page.date | date: "%A, %B %d, %Y — %H:%M" }}{% else %}{{ page.title }}{% endif %}</title>
+    <title>{% if page.permalink == '/' %}{{ site.title }}{% elsif page.collection == 'notes' %}{{ page.date | date: "%A, %B %d, %Y — %H:%M" }} • {{ site.title }}{% else %}{{ page.title }} • {{ site.title }}{% endif %}</title>
 </head>
 
 <body>
-    <nav>
-        <a href="/"><img src="/icon.svg" alt="3D wireframe sphere composed of green lines representing latitude and longitude lines of a globe" width="50" height="50"></a>
-    </nav>
-
     <header>
-        <br><h1>{% if page.permalink == '/' %}{{ site.title }}{% elsif page.collection == 'notes' %}{{ page.date | date: "%A, %B %d, %Y — %H:%M" }}{% else %}{{ page.title }}{% endif %}</h1>
+        <a href="/"><img src="/icon.svg" alt="3D wireframe sphere composed of green lines representing latitude and longitude lines of a globe" width="50" height="50"></a>
+        <br><br>
+        <h1>{% if page.permalink == '/' %}{{ site.title }}{% elsif page.collection == 'notes' %}{{ page.date | date: "%A, %B %d, %Y — %H:%M" }}{% else %}{{ page.title }}{% endif %}</h1>
     </header>
-
-    <article>{{ content }}</article>
+    <main>{{ content }}</main>
     <footer>
-        <p><small>&copy; 2024 Gerhard · <a href="/about">About</a> · <a rel="alternate"
-                type="application/rss+xml" href="{{ 'feed.xml' | relative_url }}">Feed</a> · <a href="https://github.com/gerhardlanz/gerhardla.nz">Source</a> · No tracking</small></p>
-        </p>
+        <nav aria-label="About this site">
+        <p><small>&copy; 2024 Gerhard • <a href="/about">About</a> • <a rel="alternate"
+                type="application/rss+xml" href="{{ 'feed.xml' | relative_url }}">Feed</a> • <a href="https://github.com/gerhardlanz/gerhardla.nz">Source</a> • No tracking</small></p>
+    </nav>
     </footer>
 </body>
 

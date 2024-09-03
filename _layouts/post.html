@@ -6,5 +6,12 @@ layout: default
     <small>
         <time>{{ page.date | date: "%A, %d %B %Y" }}</time>
     </small>
+</p>
+<article>
     {{ content }}
+</article>
+<p>
+    <small>
+        <a href="mailto:me@gerhardla.nz?subject={{ site.url }}{{page.url}}">Reply by email</a>
+    </small>
 </p>
