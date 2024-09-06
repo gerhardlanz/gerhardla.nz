@@ -24,6 +24,19 @@
             min-height: 100vh
         }
 
+        @media (max-width: 768px) {
+            body {
+                grid-template-areas:
+                ". . ."
+                ". header ."
+                ". main ."
+                ". footer ."
+                ". . .";
+            grid-template-columns: 1rem 1fr 1rem;
+            grid-template-rows: 1rem auto 1fr auto 1rem;
+            }
+        }
+
         h1,
         h2,
         h3 {
@@ -112,7 +125,7 @@
         <h1 style="padding-top: 2rem">{% if page.permalink == '/' %}{{ site.title }}{% elsif page.collection == 'notes'
             %}{{ page.date | date: "%A, %B %d, %Y — %H:%M" }}{% else %}{{ page.title }}{% endif %}</h1>
     </header>
-    <main>{{ content }}</main>
+    <main>{{ content }}<br></main>
     <footer>
         <nav aria-label="About this site">
             <ul style="list-style-type:none;display:flex;margin:0;padding:0">
@@ -120,7 +133,8 @@
                 <li style="margin-right: 1rem"><small><a href="/about">about</a></small></li>
                 <li style="margin-right: 1rem"><small><a rel="alternate" type="application/rss+xml"
                             href="{{ 'feed.xml' | relative_url }}">feed</a></small></li>
-                <li style="margin-right: 1rem"><small><a href="https://github.com/gerhardlanz/gerhardla.nz">source</a></small></li>
+                <li style="margin-right: 1rem"><small><a
+                            href="https://github.com/gerhardlanz/gerhardla.nz">source</a></small></li>
                 <li style="margin-right: 1rem"><small><a href="#">top</a></small></li>
                 <li style="margin-right: 1rem"><small>no tracking</small></li>
             </ul>
