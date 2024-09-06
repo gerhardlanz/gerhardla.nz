@@ -8,10 +8,16 @@ layout: default
     </small>
 </p>
 <article>
-    {{ content }}
+    <p>
+        {{ content }}
+    </p>
 </article>
+<br>
 <p>
-    <small>
-        <a href="mailto:me@gerhardla.nz?subject={{ site.url }}{{page.url}}">Reply by email</a> • <a href="https://github.com/gerhardlanz/gerhardla.nz/edit/main/{{page.path}}">Suggest edit</a>
-    </small>
+<ul style="list-style-type:none;display:flex;margin:0;padding:0">
+    <li style="margin-right: 1rem"><small><a href="mailto:me@gerhardla.nz?subject={{ site.url }}{{page.url}}">reply by
+                email</a></small></li>
+    <li style="margin-right: 1rem"><small><a
+                href="https://github.com/gerhardlanz/gerhardla.nz/edit/main/{{page.path}}">suggest edit</a></small></li>
+</ul>
 </p>
