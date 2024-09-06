@@ -4,16 +4,16 @@ permalink: /
 ---
 <p>
     <small>
-        <time>Updated {{ "now" | date: "%A, %d %B %Y" }}</time>
+        <time>updated {{ "now" | date: "%A, %d %B %Y" }}</time>
     </small>
 </p>
 
 <nav aria-label="Site pages">
     <ul style="list-style-type:none;padding:0;">
-        <li><a href="/posts" style="margin-right: 0.25rem">Posts</a><small>({{ site.posts | where: "layout", "post" |
-                size }})</small></li>
-        <li><a href="/notes" style="margin-right: 0.25rem">Notes</a><small>({{ site.notes | size }})</small></li>
-        <li><a href="/now">Now</a></li>
-        <li><a href="/uses">Uses</a></li>
+        <li><a href="/posts">posts</a><small> — {{ site.posts | where: "layout", "post" |
+                size }}</small></li>
+        <li><a href="/notes">notes</a><small> — {{ site.notes | size }}</small></li>
+        <li><a href="/now">now</a></li>
+        <li><a href="/uses">uses</a></li>
     </ul>
 </nav>
