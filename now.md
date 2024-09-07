@@ -4,8 +4,8 @@ permalink: /now
 title: Now
 ---
 
-<small>Updated {{ "now" | date:"%A, %d %B %Y" }}</small>
+<small>updated {{ "now" | date:"%Y-%m-%d" }}</small>
 
-* Working as a Senior Geospatial Advisor
-* Preparing to walk [Te Araroa](https://www.teararoa.org.nz)
-* Learning [FontForge](https://fontforge.org/)
+* working as a senior geospatial advisor
+* preparing to walk [Te Araroa](https://www.teararoa.org.nz)
+* learning [FontForge](https://fontforge.org/)

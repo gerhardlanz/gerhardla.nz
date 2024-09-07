@@ -4,8 +4,6 @@ permalink: /uses
 title: Uses
 ---
 
-Inspired by [uses.tech](https://uses.tech/). As a full-time house and pet sitter I am constantly moving between work from home settings, forcing me to travel lightly. I borrow home office furniture, such as desks and external monitors when it's available.
-
 ## Hardware
 
 * **Computer:** Apple MacBook Pro M1 8-Core 13-Inch (2020)
