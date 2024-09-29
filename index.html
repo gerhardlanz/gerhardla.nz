@@ -13,7 +13,7 @@ permalink: /
 <ul aria-label="posts" style="list-style-type:none;padding:0;">
     {% assign posts = site.posts | where: "layout","post"%}
     {% for post in posts %}
-    <li><small style="margin-right: 1rem"><time>{{ post.date | date: "%Y-%m-%d" }}</time></small><a
+    <li><small style="margin-right: 1rem">{{ post.date | date: "%Y-%m-%d" }}</small><a
             href="{{ post.url }}">{{
             post.title }}</a></li>
     {% endfor %}
@@ -22,7 +22,7 @@ permalink: /
 <h2>Notes</h2>
 
 {% assign note = site.notes | sort: 'date' | last %}
-<p><a href="{{ note.url }}"><time>{{ note.date | date: "%A, %B %d, %Y — %H:%M" }}</time></a></p>
+<p><a href="{{ note.url }}">{{ note.date | date: "%A, %B %d, %Y — %H:%M" }}</a></p>
 {% if note.content %}
 <p>{{ note.content }}</p>
 {% endif %}
@@ -30,7 +30,7 @@ permalink: /
 <ul aria-label="notes" style="list-style-type:none;padding:0;">
     {% assign notes = site.notes | where: "layout", "note" | sort: 'date' | reverse %}
     {% for note in notes %}
-    <li><small style="margin-right: 1rem"><time>{{ note.date | date: "%Y-%m-%d" }}</time></small><a
+    <li><small style="margin-right: 1rem">{{ note.date | date: "%Y-%m-%d" }}</small><a
             href="{{ note.url }}">{{
             note.title }}</a></li>
     {% endfor %}
@@ -38,15 +38,12 @@ permalink: /
 
 <h2>Now</h2>
 
-<p>
 <ol>
-    <li>Preparing to walking <a href="https://www.teararoa.org.nz">Te Araroa ↗</a>, a trail
-        spanning the length of New Zealand</li>
+    <li>Preparing to walk <a href="https://www.teararoa.org.nz">Te Araroa ↗</a>, a 3000 km trail
+        covering the length of New Zealand</li>
     <li>House + pet sitting full-time, while working remotely</li>
     <li>Running</li>
 </ol>
-<i>No hurry, no pause. Always pushing.</i>
-</p>
 
 <h2>Elsewhere</h2>
 
