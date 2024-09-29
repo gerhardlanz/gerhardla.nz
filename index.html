@@ -4,14 +4,57 @@ permalink: /
 ---
 
 <p>
-    <time>updated {{ "now" | date: "%A, %d %B %Y" }}</time>
+    Senior Geospatial Advisor <br>
+    <a href="mailto:me@gerhardla.nz">me@gerhardla.nz</a>
 </p>
 
-<nav aria-label="Site pages">
-    <ul style="list-style-type:none;padding:0;">
-        <li><a href="/posts">posts</a></li>
-        <li><a href="/notes">notes</a></li>
-        <li><a href="/now">now</a></li>
-        <li><a href="/uses">uses</a></li>
-    </ul>
-</nav>
+<h2>Posts</h2>
+
+<ul aria-label="posts" style="list-style-type:none;padding:0;">
+    {% assign posts = site.posts | where: "layout","post"%}
+    {% for post in posts %}
+    <li><small style="margin-right: 1rem"><time>{{ post.date | date: "%Y-%m-%d" }}</time></small><a
+            href="{{ post.url }}">{{
+            post.title }}</a></li>
+    {% endfor %}
+</ul>
+
+<h2>Notes</h2>
+
+{% assign note = site.notes | sort: 'date' | last %}
+<p><a href="{{ note.url }}"><time>{{ note.date | date: "%A, %B %d, %Y — %H:%M" }}</time></a></p>
+{% if note.content %}
+<p>{{ note.content }}</p>
+{% endif %}
+
+<ul aria-label="notes" style="list-style-type:none;padding:0;">
+    {% assign notes = site.notes | where: "layout", "note" | sort: 'date' | reverse %}
+    {% for note in notes %}
+    <li><small style="margin-right: 1rem"><time>{{ note.date | date: "%Y-%m-%d" }}</time></small><a
+            href="{{ note.url }}">{{
+            note.title }}</a></li>
+    {% endfor %}
+</ul>
+
+<h2>Now</h2>
+
+<p>
+<ol>
+    <li>Preparing to walking <a href="https://www.teararoa.org.nz">Te Araroa ↗</a>, a trail
+        spanning the length of New Zealand</li>
+    <li>House + pet sitting full-time, while working remotely</li>
+    <li>Running</li>
+</ol>
+<i>No hurry, no pause. Always pushing.</i>
+</p>
+
+<h2>Elsewhere</h2>
+
+<ul style="list-style-type:none;padding:0;">
+    <li><a href="https://ta-sobo.gerhardla.nz">Newsletter</a>
+    <li><a href="https://mail-api.proton.me/pks/lookup?op=get&search=me@gerhardla.nz">Public key ↓</a>
+    <li><a href="https://open.spotify.com/user/31dtn4ushuiw5xbo55ysvb3wqzxy">Spotify ↗</a></li>
+    <li><a href="https://github.com/gerhardlanz">GitHub ↗</a>
+    <li><a href="mailto:me@gerhardla.nz">Email</a>
+    <li><a rel="alternate" type="application/rss+xml" href="{{ 'feed.xml' | relative_url }}">RSS</a></li>
+</ul>
