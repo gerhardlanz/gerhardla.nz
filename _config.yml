@@ -1,6 +1,7 @@
 markdown: CommonMark
 permalink: /:title
 title: Gerhard Lanz
+url: https://gerhardla.nz
 
 collections:
   notes:
