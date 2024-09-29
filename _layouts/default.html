@@ -22,7 +22,7 @@
 
 <body>
     <nav>
-        <a href="/"><img src="/icon.svg" width="50" height="50"></a>
+        <a href="/"><img src="/icon.svg" alt="" width="50" height="50"></a>
         <h1>{% if page.permalink == '/' %}{{ site.title }}{% elsif page.collection == 'notes'
             %}{{ page.date | date: "%A, %B %d, %Y %H:%M" }}{% else %}{{ page.title }}{% endif %}</h1>
     </nav>
