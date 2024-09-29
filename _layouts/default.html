@@ -59,9 +59,9 @@
 </head>
 
 <body>
-    <nav>
-        <a href="/" aria-label="Home""><img src="/icon.svg" alt="" width="50" height="50"></a>
-    </nav>
+    <header>
+        <a href="/" aria-label="Home"><img src="/icon.svg" alt="" width="50" height="50"></a>
+    </header>
 
     <main>
         <h1>{% if page.permalink == '/' %}{{ site.title }}{% elsif page.collection == 'notes' %}{{ page.date | date:
@@ -71,13 +71,12 @@
     </main>
 
     <footer>
-        <ul style="list-style-type:none;margin:2rem 0;padding:0">
+        <ul style="list-style-type:none;padding:2rem 0 0">
             {% if page.collection %}
             <li><small>Published {{ page.date | date: "%Y-%m-%d" }}</small></li>
             <li><small><a href="mailto:me@gerhardla.nz?subject={{ site.url }}{{page.url}}">Reply by email</a></small>
             </li>
-            <li><small><a href="https://github.com/gerhardlanz/gerhardla.nz/edit/main/{{page.path}}">Suggest
-                        edit</a></small></li>
+            <li><small><a href="https://github.com/gerhardlanz/gerhardla.nz/edit/main/{{page.path}}">Suggest edit</a></small></li>
             {% else %}
             <li><small>Updated {{ "now" | date: "%Y-%m-%d" }}</small></li>
             {% endif %}
