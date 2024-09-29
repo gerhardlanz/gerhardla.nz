@@ -80,13 +80,11 @@
     <footer>
         <ul style="list-style-type:none;margin:0;padding:0">
             {% if page.collection == 'notes' or page.collection == 'posts' %}
+            <li><small>Published <time>{{ page.date | date: "%Y-%m-%d" }}</time></small></li>
             <li><small><a href="mailto:me@gerhardla.nz?subject={{ site.url }}{{page.url}}">Reply by
                         email</a></small></li>
             <li><small><a href="https://github.com/gerhardlanz/gerhardla.nz/edit/main/{{page.path}}">Suggest
                         edit</a></small></li>
-            {% endif %}
-            {% if page.collection == 'notes' or page.collection == 'posts' %}
-            <li><small>Published <time>{{ page.date | date: "%Y-%m-%d" }}</time></small></li>
             {% else %}
             <li><small>Updated <time>{{ "now" | date: "%Y-%m-%d" }}</time></small></li>
             {% endif %}
