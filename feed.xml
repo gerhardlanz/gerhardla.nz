@@ -10,14 +10,14 @@ layout: none
     <atom:link
             href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" /> {% for post in
         site.posts limit:10 %} <item>
-            <title>{{ post.title | xml_escape | prepend: "Post: " }}</title>
+            <title>{{ post.title | xml_escape | prepend: "Post — " }}</title>
             <description>{{ post.content | xml_escape }}</description>
             <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
             <link>{{ site.url }}{{ post.url }}</link>
             <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
         </item> {% endfor %}
         {% for note in site.notes limit:10 %} <item>
-            <title>{{ note.title | xml_escape | capitalize | prepend: "Note: " }}</title>
+            <title>{{ note.title | xml_escape | capitalize | prepend: "Note — " }}</title>
             <description>{{ note.content | xml_escape }}</description>
             <pubDate>{{ note.date | date_to_rfc822 }}</pubDate>
             <link>{{ site.url }}/{{ note.url }}</link>
