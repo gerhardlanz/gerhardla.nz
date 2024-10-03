@@ -48,14 +48,13 @@
     <meta name="description" content="Your meta description goes here">
     <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="{{ 'feed.xml' }}" rel='alternate' type='application/atom+xml'>
     <link rel="icon" href="/favicon.ico" sizes="32x32">
     <link rel="icon" href="/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="manifest" href="/manifest.webmanifest">
     <link rel="canonical" href="{{ page.url | prepend: site.url }}">
-    {% feed_meta %}
-    <title>{% if page.permalink == '/' %}{{ site.title }}{% elsif page.collection == 'notes' %}{{ page.date | date: "%A,
-        %B %d, %Y %H:%M" }} — {{ site.title }}{% else %}{{ page.title }} — {{ site.title }}{% endif %}</title>
+    <title>{% if page.permalink == '/' %}{{ site.title }}{% elsif page.collection == 'notes' %}Note — {{ site.title }}{% else %}{{ page.title }} — {{ site.title }}{% endif %}</title>
 </head>
 
 <body>
@@ -64,21 +63,19 @@
     </header>
 
     <main>
-        <h1>{% if page.permalink == '/' %}{{ site.title }}{% elsif page.collection == 'notes' %}{{ page.date | date:
-            "%A, %B
-            %d, %Y %H:%M" }}{% else %}{{ page.title }}{% endif %}</h1>
+        <h1>{% if page.permalink == '/' %}{{ site.title }}{% elsif page.collection == 'notes' %}Note{% else %}{{ page.title }}{% endif %}</h1>
         {{ content }}
     </main>
 
     <footer>
         <ul style="list-style-type:none;padding:2rem 0 0">
             {% if page.collection %}
-            <li><small>Published {{ page.date | date: "%Y-%m-%d" }}</small></li>
-            <li><small><a href="mailto:me@gerhardla.nz?subject={{ site.url }}{{page.url}}">Reply by email</a></small>
+            <li><small>Published {{ page.date | date: "%A, %d %B %Y — %H:%M" }}</small></li>
+            <li><small><a href="mailto:me@gerhardla.nz?subject={{ page.url | prepend: site.url }}">Reply by email</a></small>
             </li>
             <li><small><a href="https://github.com/gerhardlanz/gerhardla.nz/edit/main/{{page.path}}">Suggest edit</a></small></li>
             {% else %}
-            <li><small>Updated {{ "now" | date: "%Y-%m-%d" }}</small></li>
+            <li><small>Updated {{ "now" | date: "%F" }}</small></li>
             {% endif %}
             <li><small>&copy; {{ site.time | date: '%Y' }}</small></li>
         </ul>
