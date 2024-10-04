@@ -3,7 +3,45 @@
 
 <head>
     <style>
-        body{font:100%/1.8 system-ui, sans-serif;margin:2rem;max-width:60ch}h1,h2{font:unset;margin-top:2rem}a{color:unset}a:hover{color:transparent}blockquote{border-left:solid light-dark(#AFB8C133, #6E768166);font-style:italic;margin:2rem 0;padding:0 1rem}code{background-color:light-dark(#AFB8C133, #6E768166);border-radius:4px;font-size:0.8rem;padding:0.2rem}pre code{display:block;padding:0.8rem;white-space:pre-wrap}
+        body {
+            font: 100%/1.8 system-ui, sans-serif;
+            margin: 2rem;
+            max-width: 60ch
+        }
+
+        h1,
+        h2 {
+            font: unset;
+            margin-top: 2rem
+        }
+
+        a {
+            color: unset
+        }
+
+        a:hover {
+            color: transparent
+        }
+
+        blockquote {
+            border-left: solid light-dark(#AFB8C133, #6E768166);
+            font-style: italic;
+            margin: 2rem 0;
+            padding: 0 1rem
+        }
+
+        code {
+            background-color: light-dark(#AFB8C133, #6E768166);
+            border-radius: 4px;
+            font-size: 0.8rem;
+            padding: 0.2rem
+        }
+
+        pre code {
+            display: block;
+            padding: 0.8rem;
+            white-space: pre-wrap
+        }
     </style>
     <meta charset="UTF-8">
     <meta name="color-scheme" content="dark light">
@@ -16,26 +54,28 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="manifest" href="/manifest.webmanifest">
     <link rel="canonical" href="{{ page.url | prepend: site.url }}">
-    <title>{% if page.permalink == '/' %}{{ site.title }}{% elsif page.collection == 'notes' %}Note — {{ site.title }}{% else %}{{ page.title }} — {{ site.title }}{% endif %}</title>
+    <title>{% if page.permalink == '/' %}{{ site.title }}{% elsif page.collection == 'notes' %}Note — {{ site.title }}{%
+        else %}{{ page.title }} — {{ site.title }}{% endif %}</title>
 </head>
 
 <body>
     <header>
         <a href="/" aria-label="Home"><img src="/icon.svg" alt="" width="50" height="50"></a>
     </header>
-
     <main>
-        <h1>{% if page.permalink == '/' %}{{ site.title }}{% elsif page.collection == 'notes' %}Note{% else %}{{ page.title }}{% endif %}</h1>
+        <h1>{% if page.permalink == '/' %}{{ site.title }}{% elsif page.collection == 'notes' %}Note{% else %}{{
+            page.title }}{% endif %}</h1>
         {{ content }}
     </main>
-
     <footer>
         <ul style="list-style-type:none;padding:2rem 0 0">
             {% if page.collection %}
             <li><small>Published {{ page.date | date: "%A, %d %B %Y — %H:%M" }}</small></li>
-            <li><small><a href="mailto:me@gerhardla.nz?subject={{ page.url | prepend: site.url }}">Reply by email</a></small>
+            <li><small><a href="mailto:me@gerhardla.nz?subject={{ page.url | prepend: site.url }}">Reply by
+                        email</a></small>
             </li>
-            <li><small><a href="https://github.com/gerhardlanz/gerhardla.nz/edit/main/{{page.path}}">Suggest edit</a></small></li>
+            <li><small><a href="https://github.com/gerhardlanz/gerhardla.nz/edit/main/{{page.path}}">Suggest
+                        edit</a></small></li>
             {% else %}
             <li><small>Updated {{ "now" | date: "%F" }}</small></li>
             {% endif %}
