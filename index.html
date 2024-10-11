@@ -18,7 +18,7 @@ permalink: /
 </div>
 
 {% assign note = site.notes | sort: 'date' | last %}
-<p><a href="{{ note.url }}">{{ note.date | date: "%A, %d %B %Y — %H:%M" }}</a></p>
+<p><small><a href="{{ note.url }}">{{ note.date | date: "%A, %d %B %Y — %H:%M" }}</a></small></p>
 {% if note.content %}
 {{ note.content }}
 {% endif %}
