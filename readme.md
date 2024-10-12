@@ -1,6 +1,6 @@
 # gerhardla.nz
 
-Designed and developed by Gerhard, [gerhardla.nz](https://gerhardla.nz) went online in 2019. This website aspires to the speed and privacy of the printed page. The site is free of ads and does not use any tracking scripts nor does it collect, use, or share any personal data. I apply an ultralight mentality to both hiking and design. This is reflected here, where my website also endeavors to leave no trace.
+Designed and developed by Gerhard, [gerhardla.nz](https://gerhardla.nz) went online in 2019.
 
 ## Licence
 
