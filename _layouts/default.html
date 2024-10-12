@@ -67,20 +67,17 @@
             page.title }}{% endif %}</h1>
         {{ content }}
     </main>
-    <footer>
-        <ul style="list-style-type:none;padding:2rem 0 0">
-            {% if page.collection %}
-            <li><small>Published {{ page.date | date: "%A, %d %B %Y — %H:%M" }}</small></li>
-            <li><small><a href="mailto:me@gerhardla.nz?subject={{ page.url | prepend: site.url }}">Reply by
-                        email</a></small>
-            </li>
-            <li><small><a href="https://github.com/gerhardlanz/gerhardla.nz/edit/main/{{page.path}}">Suggest
-                        edit</a></small></li>
-            {% else %}
-            <li><small>Updated {{ "now" | date: "%F" }}</small></li>
-            {% endif %}
-            <li><small>&copy; 2019-{{ site.time | date: '%Y' }}</small></li>
-        </ul>
+    <footer style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 1rem;">
+        <p><small>&copy; 2019-{{ site.time | date: '%Y' }}</small></p>
+        {% if page.collection %}
+        <p><small>Published {{ page.date | date: "%A, %d %B %Y — %H:%M" }}</small></p>
+        <p><small><a href="mailto:me@gerhardla.nz?subject={{ page.url | prepend: site.url }}">Reply by
+                    email</a></small></p>
+        {% else %}
+        <p><small><a href="/colophon">Colophon</a></small></p>
+        <p><small><a href="/privacy">Privacy</a></small></p>
+        <p><small>Updated {{ "now" | date: "%F" }}</small></p>
+        {% endif %}
     </footer>
 </body>
 
