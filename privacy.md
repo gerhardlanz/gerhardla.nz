@@ -1,9 +1,7 @@
 ---
 layout: default
-permalink: /privacy
+title: Privacy
 ---
-
-# Privacy policy
 
 * This website aspires to the speed and privacy of the printed page
 * The site is free of ads and does not use any tracking scripts nor does it collect, use, or share any personal data
