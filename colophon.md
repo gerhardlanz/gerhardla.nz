@@ -1,9 +1,8 @@
 ---
 layout: default
 permalink: /colophon
+title: Colophon
 ---
-
-# Colophon
 
 * Typeset in your default sans-serif font
 * Conformant with [WCAG 2.1 level AA](https://wave.webaim.org/report#/gerhardla.nz)
