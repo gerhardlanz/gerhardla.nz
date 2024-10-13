@@ -1,9 +1,8 @@
 ---
 layout: default
 permalink: /notes
+title: Notes
 ---
-
-# Notes
 
 {% assign sorted_notes = site.notes | reverse %}
 {% for note in sorted_notes %}
