@@ -1,0 +1,15 @@
+/* TEAM */
+    Developer: Gerhard Lanz
+    Contact: me@gerhardla.nz
+
+/* THANKS */
+    Special thanks to all contributors and supporters.
+
+/* SITE */
+    Last update: {{ "now" | date: "%F" }}
+    Language: English
+
+    Hosting: Github Pages, Cloudflare
+    Standards: HTML5, CSS3, WCAG 2.1
+    Software: Jekyll, VSCode
+    Analytics: None

@@ -11,6 +11,7 @@
     <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='alternate' type='application/atom+xml' href="{{ 'feed.xml' }}">
+    <link rel="author" href="humans.txt" />
     <link rel="icon" href="/favicon.ico" sizes="32x32">
     <link rel="icon" href="/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -37,9 +38,7 @@
             <li><small><a href="mailto:me@gerhardla.nz?subject={{ page.url | prepend: site.url }}">Reply by
                         email</a></small></li>
             {% else %}
-            <li><small><a href="/colophon">Colophon</a></small></li>
-            <li><small><a href="/privacy">Privacy</a></small></li>
-            <li><small>Updated {{ "now" | date: "%F" }}</small></li>
+            <li><small><a href="/humans.txt">humans.txt</a></small></li>
             {% endif %}
         </ul>
     </footer>
