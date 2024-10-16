@@ -37,8 +37,6 @@
             <li><small>Published {{ page.date | date: "%A, %d %B %Y — %H:%M" }}</small></li>
             <li><small><a href="mailto:me@gerhardla.nz?subject={{ page.url | prepend: site.url }}">Reply by
                         email</a></small></li>
-            {% else %}
-            <li><small><a href="/humans.txt">humans.txt</a></small></li>
             {% endif %}
         </ul>
     </footer>
